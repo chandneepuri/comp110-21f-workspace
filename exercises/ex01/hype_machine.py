@@ -1,10 +1,8 @@
 """hype_machine.py."""
 
 __author__ = "730228106"
-
 name: str = input("What is your name? ") 
-print("You entered: ")
 print(name)
-print("Chandnee is a great student")
-print("Keep working hard, you are going to do excellent Chandnee!")
-print("Dont give up Chandnee, this is a difficult course!")
+print("name is a great student " + name)
+print("Keep working hard, you are going to do excellent " + name)
+print("Dont give up " + name + " this is a difficult course!")
